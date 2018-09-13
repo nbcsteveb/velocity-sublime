@@ -1,0 +1,20 @@
+{
+    "name": "velocity",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "me",
+    "contributes": {
+        "languages": [{
+            "id": "velocity",
+            "aliases": ["Velocity", "velocity"],
+            "extensions": [".vm"]
+        }],
+        "grammars": [{
+            "language": "velocity",
+            "scopeName": "source.velocity",
+            "path": "./syntaxHighlight/velocity.tmLanguage"
+        }]
+    }
+}
